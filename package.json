@@ -1,6 +1,6 @@
 {
   "name": "rn-component-generator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CLI for creating new react-native components",
   "main": "src/index.js",
   "scripts": {
