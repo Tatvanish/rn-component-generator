@@ -78,7 +78,7 @@ module.exports.logIntro = ({ name, dir, type }) => {
   console.info(`Type:       ${typeString}`);
   console.info(chalk.rgb(...colors.darkGray)('========================================='));
 
-  console.info('\n');
+  console.info('\n\n');
 };
 
 module.exports.logItemCompletion = (successText) => {
