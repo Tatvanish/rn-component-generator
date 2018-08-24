@@ -1,0 +1,26 @@
+{
+  "name": "rn-component-generator",
+  "version": "1.0.0",
+  "description": "CLI for creating new React components",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-native",
+    "cli",
+    "component"
+  ],
+  "author": "Hiral Parmar",
+  "license": "MIT",
+  "bin": {
+    "component-generator": "./src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.17.1",
+    "prettier": "^1.14.2"
+  }
+}
