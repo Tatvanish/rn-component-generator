@@ -19,8 +19,16 @@
     "rn-component-generator": "./src/index.js"
   },
   "dependencies": {
-    "chalk": "^2.4.1",
-    "commander": "^2.17.1",
-    "prettier": "^1.14.2"
-  }
+    "chalk": "2.0.1",
+    "commander": "2.11.0",
+    "prettier": "1.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tatvanish/rn-component-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tatvanish/rn-component-generator/issues"
+  },
+  "homepage": "https://github.com/Tatvanish/rn-component-generator#readme"
 }
