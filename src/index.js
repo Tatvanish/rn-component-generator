@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 const fs = require('fs');
 const path = require('path');
-
 const program = require('commander');
 
 const {
@@ -71,7 +70,7 @@ logIntro({ name: componentName, dir: componentDir, type: program.type });
 // Check to see if a directory at the given path exists
 const fullPathToParentDir = path.resolve(program.dir);
 if (!fs.existsSync(fullPathToParentDir)) {
-  logError(`Sorry, you need to create a parent "components" directory.\n(new-component is looking for a directory at ${program.dir}).`)
+  logError(`Sorry, you need to create a parent "components" directory.\n(rn-component-generator is looking for a directory at ${program.dir}).`)
   process.exit(0);
 }
 

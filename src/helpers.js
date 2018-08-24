@@ -8,10 +8,8 @@ NOTE: For generalized concerns that aren't specific to this project,
 use `utils.js` instead.
 */
 const os = require('os');
-
 const prettier = require('prettier');
 const chalk = require('chalk');
-
 const { requireOptional } = require('./utils');
 
 
@@ -54,9 +52,9 @@ module.exports.getConfig = () => {
     extension: 'js'
   };
 
-  const globalOverrides = requireOptional(`/${home}/.new-component-config.json`);
+  const globalOverrides = requireOptional(`/${home}/.rn-component-generator-config.json`);
 
-  const localOverrides = requireOptional(`/${currentPath}/.new-component-config.json`);
+  const localOverrides = requireOptional(`/${currentPath}/.rn-component-generator-config.json`);
 
   return Object.assign({}, defaults, globalOverrides, localOverrides);
 }
@@ -89,7 +87,7 @@ module.exports.logItemCompletion = (successText) => {
 module.exports.logConclusion = () => {
   console.info('\n');
   console.info(chalk.bold.rgb(...colors.green)('Component created! 🚀 '));
-  console.info(chalk.rgb(...colors.mediumGray)('Thanks for using new-component.'));
+  console.info(chalk.rgb(...colors.mediumGray)('Thanks for using rn-component-generator.'));
   console.info('\n');
 }
 
