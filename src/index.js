@@ -41,7 +41,7 @@ program
     config.type
   ).option(
     '-d, --dir <pathToDirectory>',
-    'Path to the "components" directory (default: "src/components")',
+    'Path to the "components" directory (default: "src")',
     config.dir
   ).option(
     '-x, --extension <fileExtension>',
