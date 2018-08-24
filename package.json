@@ -1,6 +1,6 @@
 {
   "name": "rn-component-generator",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "CLI for creating new React components",
   "main": "src/index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "author": "Hiral Parmar",
   "license": "MIT",
   "bin": {
-    "component-generator": "./src/index.js"
+    "rn-component-generator": "./src/index.js"
   },
   "dependencies": {
     "chalk": "^2.4.1",
