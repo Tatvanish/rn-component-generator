@@ -48,7 +48,7 @@ module.exports.getConfig = () => {
 
   const defaults = {
     type: 'class',
-    dir: 'src',
+    dir: '.',
     extension: 'js'
   };
 
