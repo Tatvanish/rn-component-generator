@@ -9,7 +9,7 @@ class COMPONENT_NAME extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>{COMPONENT_NAME}</Text>
+        <Text> COMPONENT_NAME </Text>
       </View>
     );
   }

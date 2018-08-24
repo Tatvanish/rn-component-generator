@@ -1,6 +1,6 @@
 {
   "name": "rn-component-generator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CLI for creating new react-native components",
   "main": "src/index.js",
   "scripts": {
@@ -30,5 +30,6 @@
   "bugs": {
     "url": "https://github.com/Tatvanish/rn-component-generator/issues"
   },
-  "homepage": "https://github.com/Tatvanish/rn-component-generator#readme"
+  "homepage": "https://github.com/Tatvanish/rn-component-generator#readme",
+  "devDependencies": {}
 }
