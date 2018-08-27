@@ -58,11 +58,6 @@ const templatePath = `./templates/${program.type}.js`;
 const componentDir = `${program.dir}/${componentName}`;
 const filePath = `${componentDir}/${componentName}.${program.extension}`;
 
-// Our index template is super straightforward, so we'll just inline it for now.
-const indexTemplate = prettify(`\
-export { default } from './${componentName}';
-`);
-
 logIntro({ name: componentName, dir: componentDir, type: program.type });
 
 
